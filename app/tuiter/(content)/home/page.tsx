@@ -8,8 +8,6 @@ import dog from "@public/dog.jpg";
 export default function Home() {
   return (
     <>
-      <Link href="navigation">Back</Link>
-      <h1>Tuiter</h1>
       <h2>Home</h2>
       <Image src={JCD} width="48" height="48" alt={"JCD's face"} />
       <br />

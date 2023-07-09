@@ -1,5 +1,5 @@
 import Image from "next/image";
-import banner from "@public/banner.jpg";
+import banner from "@public/banner-img.jpg";
 import JCD from "@public/JCD.jpg";
 import Link from "next/link";
 

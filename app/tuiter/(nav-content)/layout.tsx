@@ -12,7 +12,7 @@ export default function NavContentLayout({
           <td valign="top">
             <Nav />
           </td>
-          <td>{children}</td>
+          <td width={"100%"}>{children}</td>
         </tr>
       </table>
     </>

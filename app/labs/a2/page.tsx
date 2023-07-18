@@ -212,13 +212,47 @@ export default function LabA2() {
         </div>
         <div className="float-left w-[75px] h-[100px] bg-red-lab">Red</div>
         <Image
-          className="float-right"
+          className="float-right h-[100px]"
           src="https://www.staradvertiser.com/wp-content/uploads/2021/08/web1_Starship-gap2.jpg"
           alt={"The gap between the two halves of the Starship rocket"}
-          width={400}
-          height={225}
+          width={178}
+          height={100}
         />
-        <div className="float-done"></div>
+        <div className="clear-both"></div>
+      </div>
+      <H2>Grid layout</H2>
+      <div className="clear-both">
+        <div className="w-[50%] float-left bg-yellow-lab">
+          <h3>Left half</h3>
+        </div>
+        <div className="w-[50%] float-left bg-blue-lab text-white">
+          <h3>Right half</h3>
+        </div>
+      </div>
+      <div className="clear-both">
+        <div className="w-[33%] float-left bg-green-lab text-white">
+          <h3>Left third</h3>
+        </div>
+        <div className="w-[67%] float-left bg-color-red text-white">
+          <h3>Right two thirds</h3>
+        </div>
+      </div>
+      <div className="clear-both">
+        <div className="w-[20%] float-left bg-yellow-lab">
+          <h3>Side bar</h3>
+          <p>This is the left sidebar</p>
+        </div>
+        <div className="w-[40%] float-left bg-blue-lab bg-green-lab">
+          <h3>Main content</h3>
+          <p>
+            This is the main content. This is the main content. This is the main
+            content.{" "}
+          </p>
+        </div>
+        <div className="w-[20%] float-left bg-green-lab text-white">
+          <h3>Side bar</h3>
+          <p>This is the right sidebar</p>
+        </div>
       </div>
     </>
   );

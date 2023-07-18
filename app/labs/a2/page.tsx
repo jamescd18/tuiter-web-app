@@ -40,6 +40,16 @@ export default function LabA2() {
         The best way to apply CSS rules is to declare them in a separate CSS
         file and load it with the LINK tag. Always use this method.
       </p>
+
+      <h3 className="block text-xl my-5 font-bold font-serif">ID selectors</h3>
+      <p id="id-selector-1">
+        Instead of changing the look and feel of all the elements of the same
+        name, e.g., P, we can refer to a specific element by its ID
+      </p>
+      <p id="id-selector-2">
+        Here's another paragraph using a different ID and a different look and
+        feel
+      </p>
     </>
   );
 }

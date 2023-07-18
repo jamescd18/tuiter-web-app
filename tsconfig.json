@@ -22,6 +22,7 @@
     "paths": {
       "@/*": ["./*"],
       "@public/*": ["./public/*"],
+      "@blocks/*": ["./app/blocks/*"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

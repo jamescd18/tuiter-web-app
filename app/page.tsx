@@ -25,8 +25,8 @@ export default function Landing() {
         <Link href="https://piazza.com/class/ljepnjv9gy3pp/post/25">@25</Link>,
         I have gotten permission to implement the assignments with an
         alternative technology stack, so please understand the URLs, layouts,
-        and source code may be different. I have done my best to ensure the
-        results are achieved as close to the original as possible.
+        colors, and source code may be different. I have done my best to ensure
+        the results are achieved as close to the original as possible.
       </p>
 
       <p style={{ fontWeight: "bold" }}>Author: James Chang-Davidson</p>

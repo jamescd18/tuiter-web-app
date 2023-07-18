@@ -230,10 +230,10 @@ export default function LabA2() {
         </div>
       </div>
       <div className="clear-both">
-        <div className="w-[33%] float-left bg-green-lab text-white">
+        <div className="w-[33%] float-left bg-green-generic text-white">
           <h3>Left third</h3>
         </div>
-        <div className="w-[67%] float-left bg-color-red text-white">
+        <div className="w-[67%] float-left bg-red-lab text-white">
           <h3>Right two thirds</h3>
         </div>
       </div>
@@ -242,14 +242,14 @@ export default function LabA2() {
           <h3>Side bar</h3>
           <p>This is the left sidebar</p>
         </div>
-        <div className="w-[40%] float-left bg-blue-lab bg-green-lab">
+        <div className="w-[60%] float-left bg-blue-lab bg-green-lab">
           <h3>Main content</h3>
           <p>
             This is the main content. This is the main content. This is the main
             content.{" "}
           </p>
         </div>
-        <div className="w-[20%] float-left bg-green-lab text-white">
+        <div className="w-[20%] float-left bg-green-generic text-white">
           <h3>Side bar</h3>
           <p>This is the right sidebar</p>
         </div>

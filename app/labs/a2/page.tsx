@@ -47,20 +47,20 @@ export default function LabA2() {
         file and load it with the LINK tag. Always use this method.
       </P>
       <H3>ID selectors</H3>
-      <P id="id-selector-1" className="bg-red-500 text-white">
+      <P id="id-selector-1" className="bg-red-generic text-white">
         Instead of changing the look and feel of all the elements of the same
         name, e.g., P, we can refer to a specific element by its ID
       </P>
-      <P id="id-selector-2" className="bg-yellow-300 text-black">
+      <P id="id-selector-2" className="bg-yellow-generic text-black">
         Here&apos;s another paragraph using a different ID and a different look
         and feel
       </P>
       <H3>Class selectors</H3>
-      <P className="class-selector bg-yellow-300 text-blue-600">
+      <P className="class-selector bg-yellow-generic text-blue-600">
         Instead of using IDs to refer to elements, you can use an element&apos;s
         CLASS attribute
       </P>
-      <h4 className="class-selector bg-yellow-300 text-blue-600 font-serif font-bold">
+      <h4 className="class-selector bg-yellow-generic text-blue-600 font-serif font-bold">
         This heading has same style as paragraph above
       </h4>
       <div className="selector-1">
@@ -88,12 +88,12 @@ export default function LabA2() {
       <H3 className="text-blue-lab">Foreground color</H3>
       <P className="text-red-lab">
         The text in this paragraph is red but{" "}
-        <span className="text-green-500">this text is green</span>
+        <span className="text-green-hi">this text is green</span>
       </P>
       <H3 className="bg-blue-lab text-white">Background color</H3>
       <P className=" bg-red-lab  text-black">
         This background of this paragraph is red but
-        <span className="bg-green-500 text-white">
+        <span className="bg-green-generic text-white">
           {" "}
           the background of this text is green and the foreground white
         </span>

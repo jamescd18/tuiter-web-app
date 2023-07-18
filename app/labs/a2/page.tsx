@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import H1 from "@blocks/h1";
 import H2 from "@blocks/h2";
 import H3 from "@blocks/h3";
@@ -83,13 +85,13 @@ export default function LabA2() {
         </div>
       </div>
       <H2>Colors</H2>
-      <H3 className="text-[#7070ff]">Foreground color</H3>
-      <P className="text-[#ff7070]">
+      <H3 className="text-blue-lab">Foreground color</H3>
+      <P className="text-red-lab">
         The text in this paragraph is red but{" "}
         <span className="text-green-500">this text is green</span>
       </P>
-      <H3 className="bg-[#7070ff] text-white">Background color</H3>
-      <P className=" bg-[#ff7070]  text-black">
+      <H3 className="bg-blue-lab text-white">Background color</H3>
+      <P className=" bg-red-lab  text-black">
         This background of this paragraph is red but
         <span className="bg-green-500 text-white">
           {" "}
@@ -97,73 +99,73 @@ export default function LabA2() {
         </span>
       </P>
       <H2>Borders</H2>
-      <P className="border-x-[30px] border-y-[20px] border-[#ff7070]">
+      <P className="border-x-[30px] border-y-[20px] border-red-lab">
         Solid fat red border
       </P>
-      <P className="border-4 border-[#7070ff] border-dashed">
+      <P className="border-4 border-blue-lab border-dashed">
         Dashed thin blue border
       </P>
       <H2>Padding</H2>
-      <div className="pt-[50px] pl-[50px] border-x-[30px] border-y-[20px] border-[#ff7070] bg-[#ffff07] text-center">
+      <div className="pt-[50px] pl-[50px] border-x-[30px] border-y-[20px] border-red-lab bg-yellow-lab text-center">
         Padded top left
       </div>
-      <div className="pb-[50px] pr-[50px] border-x-[30px] border-y-[20px] border-[#7070ff] bg-[#ffff07]">
+      <div className="pb-[50px] pr-[50px] border-x-[30px] border-y-[20px] border-blue-lab bg-yellow-lab">
         Padded bottom right
       </div>
-      <div className="p-[50px] border-x-[30px] border-y-[20px] border-[#ffff07] bg-[#7070ff] text-white">
+      <div className="p-[50px] border-x-[30px] border-y-[20px] border-yellow-lab bg-blue-lab text-white">
         Padded all around
       </div>
       <H2>Margins</H2>
-      <div className="mb-[50px] pt-[50px] pl-[50px] border-x-[30px] border-y-[20px] border-[#ff7070] bg-[#ffff07] text-center">
+      <div className="mb-[50px] pt-[50px] pl-[50px] border-x-[30px] border-y-[20px] border-red-lab bg-yellow-lab text-center">
         Margin bottom
       </div>
-      <div className="mx-[50px] pb-[50px] pr-[50px] border-x-[30px] border-y-[20px] border-[#7070ff] bg-[#ffff07]">
+      <div className="mx-[50px] pb-[50px] pr-[50px] border-x-[30px] border-y-[20px] border-blue-lab bg-yellow-lab">
         Margin left right
       </div>
-      <div className="m-[30px] p-[50px] border-x-[30px] border-y-[20px] border-[#ffff07] bg-[#7070ff] text-white">
+      <div className="m-[30px] p-[50px] border-x-[30px] border-y-[20px] border-yellow-lab bg-blue-lab text-white">
         Margin all around
       </div>
       <H3>Rounded corners</H3>
-      <P className="rounded-t-[40px] border-4 border-[#7070ff] p-[50px]">
+      <P className="rounded-t-[40px] border-4 border-blue-lab p-[50px]">
         Rounded corners on the top
       </P>
-      <P className="rounded-b-[40px] border-4 border-[#7070ff] p-[50px]">
+      <P className="rounded-b-[40px] border-4 border-blue-lab p-[50px]">
         Rounded corners at the bottom
       </P>
-      <P className="rounded-[50px] border-4 border-[#7070ff] p-[50px]">
+      <P className="rounded-[50px] border-4 border-blue-lab p-[50px]">
         Rounded corners all around
       </P>
-      <P className="rounded-tl-[30px] rounded-br-[20px] rounded-bl-[50px] border-4 border-[#7070ff] p-[50px]">
+      <P className="rounded-tl-[30px] rounded-br-[20px] rounded-bl-[50px] border-4 border-blue-lab p-[50px]">
         Different rounded corners
       </P>
       <H2>Dimension</H2>
       <div>
-        <div className="w-[75px] h-[100px] bg-[#ffff07]">Portrait</div>
-        <div className="w-[100px] h-[75px] bg-[#7070ff] text-white">
+        <div className="w-[75px] h-[100px] bg-yellow-lab">Portrait</div>
+        <div className="w-[100px] h-[75px] bg-blue-lab text-white">
           Landscape
         </div>
-        <div className="w-[75px] h-[75px] bg-[#ff7070]">Square</div>
+        <div className="w-[75px] h-[75px] bg-red-lab">Square</div>
       </div>
       <H2>Position</H2>
       <H3>Relative</H3>
       <div>
-        <div className="bg-[#ffff07] w-[75px] h-[100px]">
+        <div className="bg-yellow-lab w-[75px] h-[100px]">
           <div className="relative top-[20px] left-[20px]">Portrait</div>
         </div>
-        <div className="relative bottom-[30px] left-[30px] bg-[#7070ff] text-white w-[100px] h-[75px]">
+        <div className="relative bottom-[30px] left-[30px] bg-blue-lab text-white w-[100px] h-[75px]">
           Landscape
         </div>
-        <div className="bg-[#ff7070] w-[75px] h-[75px]">Square</div>
+        <div className="bg-red-lab w-[75px] h-[75px]">Square</div>
       </div>
       <H3>Absolute position</H3>
       <div className="relative">
-        <div className="absolute top-[10px] left-[10px] w-[75px] h-[100px] bg-[#ffff07]">
+        <div className="absolute top-[10px] left-[10px] w-[75px] h-[100px] bg-yellow-lab">
           Portrait
         </div>
-        <div className="absolute top-[50px] left-[50px] w-[100px] h-[75px] bg-[#7070ff] text-white">
+        <div className="absolute top-[50px] left-[50px] w-[100px] h-[75px] bg-blue-lab text-white">
           Landscape{" "}
         </div>
-        <div className="absolute top-[20px] left-[120px] bg-[#ff7070] w-[75px] h-[75px]">
+        <div className="absolute top-[20px] left-[120px] bg-red-lab w-[75px] h-[75px]">
           Square{" "}
         </div>
       </div>
@@ -178,18 +180,18 @@ export default function LabA2() {
       Checkout the blue square that says &quot;Fixed position&quot; stuck all
       the way on the right and half way down the page. It doesn&apos;t scroll
       with the rest of the page. Its position is &quot;Fixed&quot;.
-      <div className="fixed bottom-[50%] right-[0px] w-[75px] h-[75px] bg-[#7070ff] text-white">
+      <div className="fixed bottom-[50%] right-[0px] w-[75px] h-[75px] bg-blue-lab text-white">
         Fixed position
       </div>
       <H2>Z index</H2>
       <div className="relative">
-        <div className="absolute top-[10px] left-[10px]  w-[75px] h-[100px] bg-[#ffff07]">
+        <div className="absolute top-[10px] left-[10px]  w-[75px] h-[100px] bg-yellow-lab">
           Portrait
         </div>
-        <div className="z-10 absolute top-[50px] left-[50px] w-[100px] h-[75px] bg-[#7070ff] text-white">
+        <div className="z-10 absolute top-[50px] left-[50px] w-[100px] h-[75px] bg-blue-lab text-white">
           Landscape
         </div>
-        <div className="absolute top-[20px] left-[120px] bg-[#ff7070] w-[75px] h-[75px]">
+        <div className="absolute top-[20px] left-[120px] bg-red-lab w-[75px] h-[75px]">
           Square
         </div>
       </div>
@@ -200,6 +202,24 @@ export default function LabA2() {
       <br />
       <br />
       <br />
+      <H2>Float</H2>
+      <div>
+        <div className="float-left w-[75px] h-[100px] bg-yellow-lab">
+          Yellow
+        </div>
+        <div className="float-left w-[75px] h-[100px] bg-blue-lab text-white">
+          Blue
+        </div>
+        <div className="float-left w-[75px] h-[100px] bg-red-lab">Red</div>
+        <Image
+          className="float-right"
+          src="https://www.staradvertiser.com/wp-content/uploads/2021/08/web1_Starship-gap2.jpg"
+          alt={"The gap between the two halves of the Starship rocket"}
+          width={400}
+          height={225}
+        />
+        <div className="float-done"></div>
+      </div>
     </>
   );
 }

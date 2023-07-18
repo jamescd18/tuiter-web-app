@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+
+const colors = require("tailwindcss/colors");
+
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -15,12 +18,18 @@ module.exports = {
       colors: {
         yellow: {
           lab: "#ffff07",
+          generic: colors.yellow,
         },
         blue: {
           lab: "#7070ff",
+          generic: colors.blue,
         },
         red: {
           lab: "#ff7070",
+          generic: colors.red,
+        },
+        green: {
+          generic: colors.green,
         },
       },
     },

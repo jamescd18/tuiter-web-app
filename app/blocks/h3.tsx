@@ -1,4 +1,4 @@
-export default function Bold({
+export default function H3({
   id,
   className,
   children,
@@ -8,8 +8,8 @@ export default function Bold({
   children: React.ReactNode;
 }) {
   return (
-    <p className={`font-bold mt-10 font-serif text-base ${className}`}>
+    <h2 className={`block text-xl my-5 font-bold font-serif ${className}`}>
       {children}
-    </p>
+    </h2>
   );
 }

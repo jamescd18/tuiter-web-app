@@ -87,6 +87,42 @@ export default function LabA2() {
           </P>
         </div>
       </div>
+
+      <H2>Colors</H2>
+      <H3 className="text-[#7070ff]">Foreground color</H3>
+      <P className="text-[#ff7070]">
+        The text in this paragraph is red but{" "}
+        <span className="text-green-500">this text is green</span>
+      </P>
+
+      <H3 className="bg-[#7070ff] text-white">Background color</H3>
+      <P className=" bg-[#ff7070]  text-black">
+        This background of this paragraph is red but
+        <span className="bg-green-500 text-white">
+          {" "}
+          the background of this text is green and the foreground white
+        </span>
+      </P>
+
+      <H2>Borders</H2>
+      <P className="border-x-[30px] border-y-[20px] border-[#ff7070]">
+        Solid fat red border
+      </P>
+      <P className="border-4 border-[#7070ff] border-dashed">
+        Dashed thin blue border
+      </P>
+
+      <H2>Padding</H2>
+      <div className="pt-[50px] pl-[50px] border-x-[30px] border-y-[20px] border-[#ff7070] bg-[#ffff07] text-center">
+        Padded top left
+      </div>
+
+      <div className="pb-[50px] pr-[50px] border-x-[30px] border-y-[20px] border-[#7070ff] bg-[#ffff07]">
+        Padded bottom right
+      </div>
+      <div className="p-[50px] border-x-[30px] border-y-[20px] border-[#ffff07] bg-[#7070ff] text-white">
+        Padded all around
+      </div>
     </>
   );
 }

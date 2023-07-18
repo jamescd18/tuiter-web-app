@@ -7,5 +7,5 @@ export default function P({
   className?: string;
   children: React.ReactNode;
 }) {
-  return <p className={`font-serif text-base ${className}`}>{children}</p>;
+  return <p className={`font-serif text-base my-3 ${className}`}>{children}</p>;
 }

@@ -10,6 +10,9 @@ export default function Landing() {
           <Link href="labs/a1">Assignment 1 Labs</Link>
         </li>
         <li>
+          <Link href="labs/a2">Assignment 2 Labs</Link>
+        </li>
+        <li>
           <Link href="tuiter/navigation">Tuiter</Link>
         </li>
       </ul>

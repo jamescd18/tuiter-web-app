@@ -13,3 +13,13 @@ This project utilizes the following tech stack:
 - TypeScript
 - Next.js
 - TailwindCSS
+
+## Future Packages
+
+These are some future packages to explore adding to this or other projects.
+
+- [tailwind-merge](https://www.npmjs.com/package/tailwind-merge): merge tailwind classes to resolve conflicts
+- [ui.shadcn templates](https://ui.shadcn.com/docs/components/alert): large set of components to use as baseline
+- [radix ui](https://www.radix-ui.com/docs/primitives/overview/introduction): reusable and restyleable components
+- [Class Variance Authority](https://cva.style/docs): easy variant configuration definition
+- [clsx](https://www.npmjs.com/package/clsx): className in any format

@@ -1,11 +1,9 @@
-export default function P({
-  id,
-  className,
-  children,
-}: {
-  id?: string;
-  className?: string;
-  children: React.ReactNode;
-}) {
-  return <p className={`font-serif text-base my-3 ${className}`}>{children}</p>;
+import { ComponentProps } from "react";
+
+export default function P({ id, className, children }: ComponentProps<"p">) {
+  return (
+    <p id={id} className={`font-serif text-base my-3 ${className}`}>
+      {children}
+    </p>
+  );
 }

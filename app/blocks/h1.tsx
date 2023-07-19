@@ -1,3 +1,5 @@
+import { ComponentProps } from "react";
+
 export default function H1({
   id,
   className,

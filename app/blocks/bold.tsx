@@ -1,14 +1,8 @@
-export default function Bold({
-  id,
-  className,
-  children,
-}: {
-  id?: string;
-  className?: string;
-  children: React.ReactNode;
-}) {
+import { ComponentProps } from "react";
+
+export default function Bold({ id, className, children }: ComponentProps<"p">) {
   return (
-    <p className={`font-bold mt-10 font-serif text-base ${className}`}>
+    <p id={id} className={`font-bold mt-10 font-serif text-base ${className}`}>
       {children}
     </p>
   );

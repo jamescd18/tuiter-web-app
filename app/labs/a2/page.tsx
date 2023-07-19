@@ -1,5 +1,6 @@
 import Image from "next/image";
 
+import Link from "@blocks/link";
 import H1 from "@blocks/h1";
 import H2 from "@blocks/h2";
 import H3 from "@blocks/h3";
@@ -252,6 +253,42 @@ export default function LabA2() {
         <div className="w-[20%] float-left bg-green-generic text-white">
           <h3>Side bar</h3>
           <p>This is the right sidebar</p>
+        </div>
+      </div>
+      <div className="container">
+        <H1>Bootstrap</H1>
+        <p>Welcome to Bootstrap!</p>
+        <H2>
+          <Link href="https://getbootstrap.com/docs/5.1/layout/grid/">
+            Grid system
+          </Link>
+        </H2>
+        <div className="grid grid-cols-2">
+          <div className="bg-bsdanger text-white">
+            <H3>Left half</H3>
+          </div>
+          <div className="bg-bsprimary text-white">
+            <H3>Right half</H3>
+          </div>
+        </div>
+        <div className="grid grid-cols-3">
+          <div className="col-span-1 bg-bswarning">
+            <H3>One thirds</H3>
+          </div>
+          <div className="col-span-2 bg-bssuccess text-white">
+            <H3>Two thirds</H3>
+          </div>
+        </div>
+        <div className="grid grid-cols-6">
+          <div className="col-span-1 bg-bsdark text-white">
+            <H3>Sidebar</H3>
+          </div>
+          <div className="col-span-4 bg-bssecondary text-white">
+            <H3>Main content</H3>
+          </div>
+          <div className="col-span-1 bg-bsinfo">
+            <H3>Sidebar</H3>
+          </div>
         </div>
       </div>
     </>

@@ -346,6 +346,52 @@ export default function LabA2() {
           <H4>12</H4>
         </div>
       </div>
+      <H2>Hiding and showing responsive content</H2>
+      <div className="hidden max-[576px]:block">XS</div>
+      <div className="hidden min-[576px]:block">S</div>
+      <div className="hidden min-[768px]:block">M</div>
+      <div className="hidden min-[992px]:block">L</div>
+      <div className="hidden min-[1200px]:block">XL</div>
+      <div className="hidden min-[1400px]:block">XXL</div>
+      <H2>Tables</H2>
+      <table id="table-one" className="table-auto w-full">
+        <thead>
+          <tr className="bg-bsdark text-white text-left">
+            <th className="p-2">Quiz</th>
+            <th>Topic</th>
+            <th>Date</th>
+            <th>Grade</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr className="bg-yellow-100">
+            <td className="p-2">Q1</td>
+            <td>HTML</td>
+            <td>2/3/21</td>
+            <td>85</td>
+          </tr>
+          <tr className="bg-red-100 border-1 border-t-slate-100">
+            <td className="p-2">Q2</td>
+            <td>CSS</td>
+            <td>2/10/21</td>
+            <td>90</td>
+          </tr>
+          <tr className="bg-blue-100 border-1 border-t-slate-100">
+            <td className="p-2">Q3</td>
+            <td>JavaScript</td>
+            <td>2/17/21</td>
+            <td>90</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr className="bg-green-100 border-2 border-t-black">
+            <td className="p-2" colSpan={3}>
+              Average
+            </td>
+            <td>90</td>
+          </tr>
+        </tfoot>
+      </table>
     </>
   );
 }

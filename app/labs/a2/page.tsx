@@ -291,6 +291,21 @@ export default function LabA2() {
           </div>
         </div>
       </div>
+      <H2>Responsive grid system</H2>
+      <div className="grid grid-cols-4">
+        <div className="col-span-4 md:col-span-2 xl:col-span-1 bg-bswarning">
+          <H3>Column A</H3>
+        </div>
+        <div className="col-span-4 md:col-span-2 xl:col-span-1 bg-bsprimary text-white">
+          <H3>Column B</H3>
+        </div>
+        <div className="col-span-4 md:col-span-2 xl:col-span-1 bg-bsdanger text-white">
+          <H3>Column C</H3>
+        </div>
+        <div className="col-span-4 md:col-span-2 xl:col-span-1 bg-bssuccess text-white">
+          <H3>Column D</H3>
+        </div>
+      </div>
     </>
   );
 }

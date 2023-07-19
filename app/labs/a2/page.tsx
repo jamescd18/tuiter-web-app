@@ -4,6 +4,7 @@ import Link from "@blocks/link";
 import H1 from "@blocks/h1";
 import H2 from "@blocks/h2";
 import H3 from "@blocks/h3";
+import H4 from "@blocks/h4";
 import P from "@blocks/p";
 
 export default function LabA2() {
@@ -306,43 +307,43 @@ export default function LabA2() {
           <H3>Column D</H3>
         </div>
       </div>
-      <h2>Responsive grid system</h2>
-      <div class="row">
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1 bg-warning">
-          <h4>1</h4>
+      <H2>Responsive grid system</H2>
+      <div className="grid grid-cols-12">
+        <div className="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 xl:col-span-2 2xl:col-span-1 bg-bswarning">
+          <H4>1</H4>
         </div>
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1 bg-primary text-white">
-          <h4>2</h4>
+        <div className="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 xl:col-span-2 2xl:col-span-1 bg-bsprimary text-white">
+          <H4>2</H4>
         </div>
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1 bg-danger text-white">
-          <h4>3</h4>
+        <div className="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 xl:col-span-2 2xl:col-span-1 bg-bsdanger text-white">
+          <H4>3</H4>
         </div>
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1 bg-success text-white">
-          <h4>4</h4>
+        <div className="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 xl:col-span-2 2xl:col-span-1 bg-bssuccess text-white">
+          <H4>4</H4>
         </div>
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1 bg-warning">
-          <h4>5</h4>
+        <div className="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 xl:col-span-2 2xl:col-span-1 bg-bswarning">
+          <H4>5</H4>
         </div>
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1 bg-primary text-white">
-          <h4>6</h4>
+        <div className="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 xl:col-span-2 2xl:col-span-1 bg-bsprimary text-white">
+          <H4>6</H4>
         </div>
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1 bg-danger text-white">
-          <h4>7</h4>
+        <div className="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 xl:col-span-2 2xl:col-span-1 bg-bsdanger text-white">
+          <H4>7</H4>
         </div>
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1 bg-success text-white">
-          <h4>8</h4>
+        <div className="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 xl:col-span-2 2xl:col-span-1 bg-bssuccess text-white">
+          <H4>8</H4>
         </div>
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1 bg-warning">
-          <h4>9</h4>
+        <div className="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 xl:col-span-2 2xl:col-span-1 bg-bswarning">
+          <H4>9</H4>
         </div>
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1 bg-primary text-white">
-          <h4>10</h4>
+        <div className="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 xl:col-span-2 2xl:col-span-1 bg-bsprimary text-white">
+          <H4>10</H4>
         </div>
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1 bg-danger text-white">
-          <h4>11</h4>
+        <div className="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 xl:col-span-2 2xl:col-span-1 bg-bsdanger text-white">
+          <H4>11</H4>
         </div>
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1 bg-success text-white">
-          <h4>12</h4>
+        <div className="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 xl:col-span-2 2xl:col-span-1 bg-bssuccess text-white">
+          <H4>12</H4>
         </div>
       </div>
     </>

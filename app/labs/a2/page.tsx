@@ -392,6 +392,53 @@ export default function LabA2() {
           </tr>
         </tfoot>
       </table>
+      <H2>
+        <Link href="https://getbootstrap.com/docs/5.1/content/tables/#responsive-tables">
+          Responsive tables
+        </Link>
+      </H2>
+      <div className="overflow-x-auto">
+        <table className="w-full table-fixed">
+          <thead className="border-b-2 border-b-slate-500 text-left">
+            <tr>
+              <th className="w-[75px]">Very</th>
+              <th className="w-[75px]">long</th>
+              <th className="w-[75px]">set</th>
+              <th className="w-[75px]">of</th>
+              <th className="w-[75px]">columns</th>
+              <th className="w-[75px]">Very</th>
+              <th className="w-[75px]">long</th>
+              <th className="w-[75px]">set</th>
+              <th className="w-[75px]">of</th>
+              <th className="w-[75px]">columns</th>
+              <th className="w-[75px]">Very</th>
+              <th className="w-[75px]">long</th>
+              <th className="w-[75px]">set</th>
+              <th className="w-[75px]">of</th>
+              <th className="w-[75px]">columns</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Very</td>
+              <td>long</td>
+              <td>set</td>
+              <td>of</td>
+              <td>columns</td>
+              <td>Very</td>
+              <td>long</td>
+              <td>set</td>
+              <td>of</td>
+              <td>columns</td>
+              <td>Very</td>
+              <td>long</td>
+              <td>set</td>
+              <td>of</td>
+              <td>columns</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </>
   );
 }

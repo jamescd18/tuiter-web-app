@@ -444,7 +444,7 @@ export default function LabA2() {
           Favorite movies
         </Link>
       </H2>
-      <ul className="border-collapse border-1 border-slate-200">
+      <ul className="border-collapse border-1 border-slate-200 w-[40%] rounded-md">
         <li className="border-collapse border-b-2 border-slate-200 bg-bsprimary text-white">
           Aliens
         </li>

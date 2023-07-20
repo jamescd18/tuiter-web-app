@@ -1,13 +1,13 @@
-import Link from "next/link";
+import Link from "@blocks/link";
 
 export default function Nav() {
   return (
-    <ul>
+    <ul className="list-disc list-inside ml-3">
       <li>
         <Link href="home">Home</Link>
       </li>
       <li>
-        <Link href="explore">Explore</Link>
+        <Link href="explore">Explore (CSS)</Link>
       </li>
       <li>
         <Link href="notifications">Notifications</Link>

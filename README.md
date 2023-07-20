@@ -23,3 +23,4 @@ These are some future packages to explore adding to this or other projects.
 - [radix ui](https://www.radix-ui.com/docs/primitives/overview/introduction): reusable and restyleable components
 - [Class Variance Authority](https://cva.style/docs): easy variant configuration definition
 - [clsx](https://www.npmjs.com/package/clsx): className in any format
+- [react-icons](https://react-icons.github.io/react-icons/search?q=comment): icon pack for all icons

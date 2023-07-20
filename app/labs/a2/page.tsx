@@ -439,6 +439,28 @@ export default function LabA2() {
           </tbody>
         </table>
       </div>
+      <H2>
+        <Link href="https://getbootstrap.com/docs/5.1/components/list-group/">
+          Favorite movies
+        </Link>
+      </H2>
+      <ul className="border-collapse border-1 border-slate-200">
+        <li className="border-collapse border-b-2 border-slate-200 bg-bsprimary text-white">
+          Aliens
+        </li>
+        <li className="border-collapse border-b-2 border-slate-200 list-group-item">
+          Terminator
+        </li>
+        <li className="border-collapse border-1 border-slate-200 list-group-item">
+          Blade Runner
+        </li>
+        <li className="border-collapse border-1 border- border-slate-200 list-group-item">
+          Lord of the Ring
+        </li>
+        <li className="border-collapse border-1 border-slate-200 list-group-item disabled">
+          Star Wars
+        </li>
+      </ul>
     </>
   );
 }

@@ -1,8 +1,9 @@
-import Link from "@blocks/link";
 import { Search } from "./search";
 import { cn } from "@/lib/utils";
 import { Settings } from "lucide-react";
 import NavRow from "./nav-row";
+import ImgBanner from "./img-banner";
+import Trending from "./trending";
 
 export default function ExploreCSS() {
   return (
@@ -12,6 +13,8 @@ export default function ExploreCSS() {
         <Settings className={cn("ml-5 mr-3")} color="gray" />
       </div>
       <NavRow />
+      <ImgBanner />
+      <Trending />
     </div>
   );
 }

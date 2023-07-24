@@ -8,6 +8,12 @@ const nextConfig = {
         port: "",
         pathname: "/wp-content/uploads/**",
       },
+      {
+        protocol: "https",
+        hostname: "media-cldnry.s-nbcnews.com",
+        port: "",
+        pathname: "/image/upload/rockcms/**",
+      },
     ],
   },
 };

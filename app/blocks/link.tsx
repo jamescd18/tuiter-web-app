@@ -1,6 +1,7 @@
 import { ComponentProps } from "react";
 import NextLink from "next/link";
 import { Url } from "next/dist/shared/lib/router/router";
+import { cn } from "@/lib/utils";
 
 export default function Link({
   className,
@@ -9,7 +10,7 @@ export default function Link({
 }: ComponentProps<"a"> & { href: Url }) {
   return (
     <NextLink
-      className={`hover:underline text-blue-700 ${className}`}
+      className={cn("hover:underline text-blue-700", className)}
       href={href}
     >
       {children}

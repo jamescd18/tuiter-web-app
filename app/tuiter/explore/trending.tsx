@@ -3,7 +3,7 @@ import TrendingItem from "./trending-item";
 
 export default function Trending() {
   return (
-    <ul className={cn("flex flex-col")}>
+    <ul className={cn("flex flex-col m-4")}>
       <TrendingItem href={"#megan"} tweets={56145} tags={["Trending in News"]}>
         Meghan
       </TrendingItem>

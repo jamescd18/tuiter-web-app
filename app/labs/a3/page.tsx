@@ -8,15 +8,13 @@ import H4 from "@blocks/h4";
 import P from "@blocks/p";
 
 export default function LabA3() {
-  console.log("Hello World!");
-
   var functionScoped = 2;
   let blockScoped = 5;
   const constant1 = functionScoped - blockScoped;
 
   return (
     <div className="container">
-      <H1>Lab A3</H1>
+      <H1>Assignment A3</H1>
       <P>Hello world!</P>
       <H2>Variables</H2>
       <div>

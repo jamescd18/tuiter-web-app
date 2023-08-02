@@ -19,6 +19,9 @@ export default function Landing() {
           <Link href="labs/a3">Assignment 3 Labs</Link>
         </li>
         <li>
+          <Link href="labs/a4">Assignment 4 Labs</Link>
+        </li>
+        <li>
           <Link href="tuiter/navigation">Tuiter</Link>
         </li>
       </ul>

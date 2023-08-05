@@ -499,6 +499,32 @@ export default function LabA2() {
           Ender&apos;s Game
         </Link>
       </div>
+      <H2>
+        <Link href="https://getbootstrap.com/docs/5.1/forms/form-control/">
+          Forms
+        </Link>
+      </H2>
+      <div className="mb-3 flex flex-col mx-3">
+        <label htmlFor="input1" className="form-label mb-2">
+          Email address
+        </label>
+        <input
+          type="email"
+          className="form-control border rounded-md px-2 py-1"
+          id="input1"
+          placeholder="name@example.com"
+        />
+      </div>
+      <div className="mb-3 flex flex-col mx-3">
+        <label htmlFor="textarea1" className="form-label mb-2">
+          Example textarea
+        </label>
+        <textarea
+          className="form-control  border rounded-md"
+          id="textarea1"
+          rows={3}
+        ></textarea>
+      </div>
     </>
   );
 }

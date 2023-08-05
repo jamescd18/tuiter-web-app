@@ -7,13 +7,19 @@ export default function Nav() {
         <Link href="home">Home</Link>
       </li>
       <li>
-        <Link href="explore">Explore (CSS)</Link>
+        <Link href="explore-css">Explore (CSS)</Link>
+      </li>
+      <li>
+        <Link href="explore">Explore</Link>
       </li>
       <li>
         <Link href="notifications">Notifications</Link>
       </li>
       <li>
         <Link href="messages">Messages</Link>
+      </li>
+      <li>
+        <Link href="bookmarks-css">Bookmarks (CSS)</Link>
       </li>
       <li>
         <Link href="bookmarks">Bookmarks</Link>

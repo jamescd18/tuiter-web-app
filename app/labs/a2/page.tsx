@@ -457,6 +457,48 @@ export default function LabA2() {
           Star Wars
         </li>
       </ul>
+      <H2>
+        <Link href="https://getbootstrap.com/docs/5.1/components/list-group/#links-and-buttons">
+          Favorite books
+        </Link>
+      </H2>
+      <div className="flex flex-col border border-slate-200 w-[40%] rounded-lg overflow-hidden m-2">
+        <Link
+          href="https://en.wikipedia.org/wiki/Dune_(novel)"
+          className="border border-b-2 border-slate-200 bg-bsprimary p-2 text-sm text-white hover:no-underline"
+        >
+          Dune
+        </Link>
+
+        <Link
+          href="https://en.wikipedia.org/wiki/The_Lord_of_the_Rings"
+          className="border-b border-slate-200 p-2 text-sm hover:bg-slate-100 active:bg-slate-200 text-black hover:no-underline"
+        >
+          Lord of the Rings
+        </Link>
+
+        <Link
+          href="https://en.wikipedia.org/wiki/The_Forever_War"
+          className="border-b border-slate-200 p-2 text-sm hover:bg-slate-100 active:bg-slate-200 text-black hover:no-underline"
+        >
+          The Forever War
+        </Link>
+
+        <Link
+          href="https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey_(novel)"
+          className="border-b border-slate-200 p-2 text-sm hover:bg-slate-100 active:bg-slate-200 text-black hover:no-underline"
+        >
+          2001 A Space Odyssey
+        </Link>
+
+        <Link
+          href="https://en.wikipedia.org/wiki/Ender%27s_Game"
+          className="border-b border-slate-200 disabled p-2 text-sm text-slate-500 hover:no-underline"
+          aria-disabled="true"
+        >
+          Ender&apos;s Game
+        </Link>
+      </div>
     </>
   );
 }

@@ -444,20 +444,16 @@ export default function LabA2() {
           Favorite movies
         </Link>
       </H2>
-      <ul className="border-collapse border-1 border-slate-200 w-[40%] rounded-md">
-        <li className="border-collapse border-b-2 border-slate-200 bg-bsprimary text-white">
+      <ul className="border border-slate-200 w-[40%] rounded-lg overflow-hidden m-2">
+        <li className="border border-b-2 border-slate-200 bg-bsprimary text-white p-2 text-sm">
           Aliens
         </li>
-        <li className="border-collapse border-b-2 border-slate-200 list-group-item">
-          Terminator
-        </li>
-        <li className="border-collapse border-1 border-slate-200 list-group-item">
-          Blade Runner
-        </li>
-        <li className="border-collapse border-1 border- border-slate-200 list-group-item">
+        <li className="border-b border-slate-200 p-2 text-sm">Terminator</li>
+        <li className="border-b border-slate-200 p-2 text-sm">Blade Runner</li>
+        <li className="border-b border-slate-200 p-2 text-sm">
           Lord of the Ring
         </li>
-        <li className="border-collapse border-1 border-slate-200 list-group-item disabled">
+        <li className="border-b border-slate-200 disabled p-2 text-sm">
           Star Wars
         </li>
       </ul>

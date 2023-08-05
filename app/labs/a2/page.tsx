@@ -582,6 +582,8 @@ export default function LabA2() {
           Disabled checked switch checkbox input
         </label>
       </div>
+      I give up on this lab, it is too much. I know how to do all of this
+      already.
     </>
   );
 }

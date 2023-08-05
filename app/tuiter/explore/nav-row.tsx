@@ -5,7 +5,7 @@ export default function NavRow() {
   return (
     <ul className={cn("flex flex-row justify-around")}>
       <NavItem
-        className={cn("border-b-2 border-blue-500 text-black")}
+        className={cn("border-b-4 border-blue-500 text-black")}
         href={"#for-you"}
       >
         For you

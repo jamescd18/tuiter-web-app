@@ -4,29 +4,33 @@ import TrendingItem from "./trending-item";
 export default function Trending() {
   return (
     <ul className={cn("flex flex-col m-4")}>
-      <TrendingItem href={"#megan"} tweets={56145} tags={["Trending in News"]}>
+      <TrendingItem
+        href={"#megan"}
+        tweets={"56.1K"}
+        tags={["Trending in News"]}
+      >
         Meghan
       </TrendingItem>
-      <TrendingItem href={"#starlink"} tweets={26454} tags={["Trending"]}>
+      <TrendingItem href={"#starlink"} tweets={"26.4K"} tags={["Trending"]}>
         Starlink
       </TrendingItem>
       <TrendingItem
         href={"#warren-buffet"}
-        tweets={5502}
+        tweets={"5,502"}
         tags={["Trending in Business personalities"]}
       >
         Warren Buffet
       </TrendingItem>
       <TrendingItem
         href={"#poland"}
-        tweets={29945}
+        tweets={"29.9K"}
         tags={["Trending in Political figures"]}
       >
         Poland
       </TrendingItem>
       <TrendingItem
         href={"#denzel-washington"}
-        tweets={1215}
+        tweets={"1,215"}
         tags={["Celebrities", "Trending"]}
       >
         Denzel Washington

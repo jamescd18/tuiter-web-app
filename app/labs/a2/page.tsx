@@ -525,6 +525,17 @@ export default function LabA2() {
           rows={3}
         ></textarea>
       </div>
+      <H3>
+        <Link href="https://getbootstrap.com/docs/5.1/forms/select/">
+          Dropdowns
+        </Link>
+      </H3>
+      <select className="form-select appearance-none border rounded-md px-2 py-1 w-full m-4">
+        <option selected>Open this select menu</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
     </>
   );
 }
